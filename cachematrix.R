@@ -1,4 +1,4 @@
-makecachematrix <- function(x = numeric()) {
+makecachematrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
                 x <<- y
@@ -23,3 +23,4 @@ cacheinv <- function(x, ...) {
         x$setinv(m)
         m
 }
+
